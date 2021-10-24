@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Agu 2021 pada 04.07
--- Versi server: 10.1.37-MariaDB
--- Versi PHP: 7.3.1
+-- Generation Time: Oct 24, 2021 at 06:41 PM
+-- Server version: 10.4.6-MariaDB
+-- PHP Version: 7.1.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,13 +19,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kelurahan`
+-- Database: `arsipkelurahan`
 --
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_surat`
+-- Table structure for table `tb_surat`
 --
 
 CREATE TABLE `tb_surat` (
@@ -38,32 +38,31 @@ CREATE TABLE `tb_surat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `tb_surat`
+-- Dumping data for table `tb_surat`
 --
 
 INSERT INTO `tb_surat` (`id_surat`, `nomor_surat`, `kategori_surat`, `judul_surat`, `waktu_pengarsipan`, `path`) VALUES
-(23, '2020/PD3/TU/001', 'Pengumuman', 'Nota Dinas WFH', '2021-08-30 08:55:49', '2021-08-30-08-55-49.pdf'),
-(24, '2020/PD2/TU/022', 'Undangan', 'Undangan Halal Bi Halal', '2021-08-30 08:56:31', '2021-08-30-08-56-31.pdf');
+(26, '24/10/2021/DAK1', 'Pemberitahuan', 'Pemberitahuan Ketentuan  XXX', '2021-10-24 23:31:48', '2021-10-24-23-31-48.pdf');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indeks untuk tabel `tb_surat`
+-- Indexes for table `tb_surat`
 --
 ALTER TABLE `tb_surat`
   ADD PRIMARY KEY (`id_surat`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `tb_surat`
+-- AUTO_INCREMENT for table `tb_surat`
 --
 ALTER TABLE `tb_surat`
-  MODIFY `id_surat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id_surat` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

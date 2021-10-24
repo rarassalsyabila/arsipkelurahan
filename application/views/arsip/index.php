@@ -28,7 +28,7 @@
                     <?php } ?>
                     <div class="card card-primary card-outline">
                         <div class="card-header">
-                            <a href="<?php echo base_url('arsip/tambah'); ?>" type="button" class="btn btn-info">
+                            <a href="<?php echo base_url('arsip/tambah'); ?>" type="button" class="btn btn-primary">
                                 <i class="fa fa-plus-square" aria-hidden="true"></i> Arsip Surat
                             </a>
                         </div>
